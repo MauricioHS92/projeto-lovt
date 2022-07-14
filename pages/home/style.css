@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ropa+Sans&display=swap');
+
+body {
+    width: 697px;
+    height: 1264px;
+    background-color: white;
+    border-radius: 0px;
+    border-style: groove;
+    border-color: #d4d4d4;
+    font-family: 'Ropa Sans';
+}
+
+.cabecalho {    
+    box-shadow: 0px 2px 5px 0px #d4d4d4;
+    width: 697px;
+    height: 49px;
+}
+#logo {
+    /*position: relative; left: 44px; bottom: 19px; right: 31px; top: 13px;*/
+    margin-left: 44px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    height: 25px;
+    width: 63px;
+}
+#frase-efeito {
+    /*position: relative; left: 107px; bottom: 14px; right: 552px; top: 13px;*/
+    /*margin-left: 107px;*/
+    margin-bottom: 14px;
+    margin-top: 13px;
+    height: 22px;
+    width: 38px;
+}
+#menu-site {
+    /*position: relative; left: 648px; bottom: 19px; right: 31px; top: 18px;*/
+    display:inline-table; 
+    height: 12px;
+    width: 18px;
+    margin-left: 503px;
+    margin-bottom: 19px;
+    margin-right: 0px;
+    margin-top: 18px;
+}
+
+.carrocel img {
+    height: 259px;
+    width: 608px;
+    margin-left: 44px;
+    margin-bottom: 37px;
+    margin-right: 45px;
+    margin-top: 20px;    
+}
+
+.bloco1 {
+    height: 242px;
+    width: 256px;
+    margin-left: 44px;
+    background: #EEEEEE;
+}
+.valor-bloco1 {
+    display: inline;
+}
+#preco1 {
+    margin-left: 12px;
+    margin-top: 9px;
+}
+#fundo-preco1 {
+    margin-left: 105px;
+}
+#descricao1 {
+    font-size: 10px;
+    margin-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 14px;
+    text-align: justify;
+    margin-top: 0px;
+}
+.bloco2 {
+    height: 242px;
+    width: 256px;
+    margin-left: 396px;
+    margin-top: -242px;
+    background: #EEEEEE
+}
+.valor-bloco2 {
+    display: inline;
+}
+#preco2 {
+    margin-left: 12px;
+    margin-top: 9px;
+}
+#fundo-preco2 {
+    margin-left: 105px;
+}
+#descricao2 {
+    font-size: 10px;
+    margin-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 14px;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+#interiores {
+    margin-top: 45px;
+    text-align: center;
+}
+
+
+.p1 {
+    text-align: center;
+    padding-top: 27.5px;
+    font-size: 25px;
+    color: #EEEEEE;
+}
+
+#industrial {
+    margin-top: -11px;
+    opacity: 75%;
+    margin-left: 44px;
+    height: 80px;
+    width: 608px;
+    background-image: url(../../assets/images/Rectangle\ 11.png);
+    margin-bottom: 13px;
+}
+
+#modern {
+    padding-top: -11px;
+    opacity: 75%;
+    margin-left: 44px;
+    height: 80px;
+    width: 608px;
+    background-image: url(../../assets/images/Rectangle\ 12.png);
+    margin-bottom: 13px;
+    }
+
+#classic {
+    padding-top: -11px;
+    opacity: 75%;
+    margin-left: 44px;
+    height: 80px;
+    width: 608px;
+    background-image: url(../../assets/images/Rectangle\ 13.png);
+    margin-bottom: 13px;
+}
+
+.footer-box {
+    width: 697px;
+    height: 243px;
+    background: #333333;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    border-radius: 1px;
+}
+.informacoes {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: justify;
+    position: absolute; top: 1050px; left: 500px;
+}
+#localizacao {
+    padding-top: 40px;
+    padding-left: 48px;
+}
+
+#redes-sociais {
+    position: absolute; top: 1190px; left: 500px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+#instagram-logo {
+    position: absolute; top: 1220px; left: 500px;
+}
+#facebook-logo {
+    position: absolute; top: 1220px; left: 545px;
+}
+#whatsapp-logo {
+    position: absolute; top: 1220px; left: 590px;
+
+}
